@@ -39,7 +39,7 @@ export const StyledInput = styled(Field)`
     ${({ error }) =>
         error &&
         css`
-        border: 1px solid red;
+        border: 1px solid #D11A2A;
         outline: none;
     `}
 `;
