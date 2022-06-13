@@ -8,6 +8,8 @@ import {
   ImageBg,
   ImageWoman,
 } from './RegistrationUsersStyled.js';
+import imgBg from '../../assets/image/registration-image-bg.svg';
+import imgWoman from '../../assets/image/registration-image-woman.svg';
 
 
 export default function RegistrationUsers () {
@@ -26,8 +28,8 @@ export default function RegistrationUsers () {
             }
 
             <RegistrationFormImage>
-                <ImageBg src={require('../../assets/image/registration-image-bg.png')} alt="registration image bg" />
-                <ImageWoman src={require('../../assets/image/registration-image-woman.png')} alt="registration image woman" />
+                <ImageBg src={imgBg} alt="registration image bg" />
+                <ImageWoman src={imgWoman} alt="registration image woman" />
             </RegistrationFormImage>
 
         </RegistrationUsersContainer>
